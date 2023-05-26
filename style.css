@@ -1,0 +1,260 @@
+/* Reset some default styles */
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  .about-section {
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about-image {
+    margin-bottom: 20px;
+  }
+  
+  .about-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .about-text {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .skills-section {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  /* ... previous styles ... */
+
+.contact-section {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  /* ... previous styles ... */
+
+.blog-section {
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  
+  .blog-post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .blog-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .blog-image img {
+    max-width: 25%;
+    height: 10%;
+    border-radius: 10px;
+
+  }
+  
+  .blog-content {
+    
+    line-height: 1.5;
+  }
+
+  /* ... previous styles ... */
+
+.hobbies-section {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .hobby {
+     margin: 30px 20px ;
+    
+  }
+  
+  .hobby img {
+    
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+  }
+ 
+  .hobby h2 {
+    font-size: 60px;
+    margin: 10px 0;
+  }
+  
+  .hobby p {
+    line-height: 2;
+  }
+  .skills-section {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-list li {
+    margin-bottom: 20px
+  ;
+  }
+  
+  .skills-list h3 {
+  font-size: 20px;
+  }
+  
+  .progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  overflow: hidden;
+  }
+  
+  .progress {
+  height: 100%;
+  background-color: #4caf50;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  }
+  /* ... previous styles ... */
+
+.hero-section {
+    background-image: url("background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #010811;
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+  }
+  
+  /* ... remaining styles ... */
+ /* ... previous styles ... */
+
+.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ff7f50;
+}
+
+/* ... remaining styles ... */
